@@ -9,6 +9,4 @@ dependencies = [
     "python-xlib", # We will need this for the X11 interception
 ]
 
-[project.scripts]
-# TODO: Define your CLI command name and point it to your main function
-# e.g., my-command = "my_module.main:main"
+# [project.scripts]
