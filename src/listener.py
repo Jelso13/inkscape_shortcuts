@@ -1,5 +1,5 @@
 from src.key_handler import KeyHandler
-from src.actions import send_keystrokes
+from src.actions import apply_style_snippet, send_keystrokes
 
 import string
 import threading
@@ -17,6 +17,10 @@ class WindowListener(threading.Thread):
             ("t", "g"): lambda: send_keystrokes("numbersign"),
             # ("t", "g"): lambda: send_keystrokes("numbersign", "percent"),
             ("p", "n"): lambda: send_keystrokes("F6"),
+            ("s", "t"): lambda: apply_style_snippet("""<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg>
+  <inkscape:clipboard style="stroke: #FF0000; stroke-width: 2.0; fill: none;" />
+</svg>""") 
         })
 
         self.alphabet = list(string.ascii_lowercase + string.digits)
