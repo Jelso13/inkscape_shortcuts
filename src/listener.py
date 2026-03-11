@@ -8,6 +8,9 @@ from Xlib import X, XK
 from Xlib.display import Display
 from Xlib.protocol import event as xevent
 
+from src.latex_editor import spawn_latex_editor
+from src.object_manager import save_object, load_object
+
 logger = logging.getLogger(__name__)
 
 class WindowListener(threading.Thread):
@@ -15,6 +18,10 @@ class WindowListener(threading.Thread):
         super().__init__()
         self.window_id = window_id
         self.key_handler = KeyHandler({
+            ("m",): lambda: spawn_latex_editor(self, compile_latex=False), # math text
+            ("M",): lambda: spawn_latex_editor(self, compile_latex=True),   # rendered math text
+            ("o", "s"): lambda: save_object(self),
+            ("o", "l"): lambda: load_object(self),
             ("t", "g"): lambda: send_keystrokes("numbersign"),
             ("p", "n"): lambda: send_keystrokes("F6"),
             ("u",): lambda: send_keystrokes("Ctrl+z"),

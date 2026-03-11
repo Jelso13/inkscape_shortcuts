@@ -30,7 +30,6 @@ def is_inkscape_window(window) -> bool:
     try:
         window_class = window.get_wm_class()
         if window_class and "inkscape" in window_class[0].lower():
-            logger.debug(f"HERE: inkscape in window class")
             return True
     except Xlib.error.BadWindow as e:
         pass
