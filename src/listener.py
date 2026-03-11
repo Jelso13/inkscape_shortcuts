@@ -1,3 +1,4 @@
+from style_manager import load_style, save_style
 from src.key_handler import KeyHandler
 from src.actions import apply_style_snippet, send_keystrokes
 
@@ -20,6 +21,8 @@ class WindowListener(threading.Thread):
         self.key_handler = KeyHandler({
             ("m",): lambda: spawn_latex_editor(self, compile_latex=False), # math text
             ("M",): lambda: spawn_latex_editor(self, compile_latex=True),   # rendered math text
+            ("s", "s"): lambda: save_style(self),
+            ("s", "l"): lambda: load_style(self),
             ("o", "s"): lambda: save_object(self),
             ("o", "l"): lambda: load_object(self),
             ("t", "g"): lambda: send_keystrokes("numbersign"),
