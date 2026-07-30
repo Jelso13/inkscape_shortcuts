@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="124.83697mm"
+   height="83.359352mm"
+   viewBox="0 0 124.83697 83.359352"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-23.090093,-81.017759)">
+    <ellipse
+       style="fill:#29ff29;fill-opacity:1;stroke-width:0.418999;stroke-dasharray:1.676, 0.418999"
+       id="path1"
+       cx="69.467262"
+       cy="124.03748"
+       rx="16.778774"
+       ry="13.015311" />
+    <rect
+       style="fill:#29ffed;fill-opacity:0.312253;stroke:#000000;stroke-width:0.418999;stroke-dasharray:1.676, 0.418999;stroke-opacity:1"
+       id="rect1"
+       width="45.475182"
+       height="38.261879"
+       x="66.487854"
+       y="91.577614"
+       ry="2.0880306"
+       rx="2.0880306" />
+    <rect
+       style="fill:#3f29ff;fill-opacity:0.312253;stroke:#000000;stroke-width:0.418999;stroke-dasharray:1.676, 0.418999;stroke-opacity:1"
+       id="rect2"
+       width="45.475182"
+       height="38.261879"
+       x="72.446671"
+       y="120.43083"
+       ry="2.0880306"
+       rx="2.0880306" />
+    <rect
+       style="fill:#ff29aa;fill-opacity:0.312253;stroke:#000000;stroke-width:0.418999;stroke-dasharray:1.676, 0.418999;stroke-opacity:1"
+       id="rect3"
+       width="45.475182"
+       height="38.261879"
+       x="102.24076"
+       y="100.98627"
+       ry="2.0880306"
+       rx="2.0880306" />
+    <path
+       style="fill:#ff29aa;fill-opacity:0.312253;stroke:#000000;stroke-width:0.418999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="M 23.208025,160.88807 139.24815,81.855333"
+       id="path3" />
+    <path
+       style="fill:#ff29aa;fill-opacity:0.312253;stroke:#000000;stroke-width:0.418999;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5);marker-end:url(#DartArrow)"
+       d="M 145.20697,162.7698 42.338966,82.796196"
+       id="path4" />
+  </g>
+</svg>
